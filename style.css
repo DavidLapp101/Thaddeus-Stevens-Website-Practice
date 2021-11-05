@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader4 {
+    display: inline;
+    color: #265b8c;
+    border-bottom: 3px solid #265b8c;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.settingsDiv4 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.address4 {
+    display: flex;
+    justify-content: center;
+}
+
+.addressDirection4 {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    padding-right: 15px;
+}
+
+.address4 span {
+    font-size: 12px;
+    padding: 3px 5px 0px 5px;
+}
+
+.address4 a {
+    color:#265b8c;
+}
+.link4 {
+    color:#265b8c;
+    width: 60%;
+    display: block;
+    font-size: 18px;
+}
+.icons4 {
+    background-color: #265b8c;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+    height: 25px;
+}
+
+.ion4 {
+    color:white;
+    font-size: 20px;
+}
+
+.lowerButton4 {
+    width: 100%;
+    background-color: #265b8c;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.bulletinBox4 {
+    width: 31.5%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height:fit-content
+}
+.bulletinList4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.para4 {
+    margin-top: 35px;
+    color: rgb(100, 100, 100);
+}
+
+.upperBox4 {
+    padding: 10px 10px;
+    overflow-wrap: break-word;
+}
+
+.bulletinHolder4 h2 {
+    margin-bottom: 10px;
+    color: rgb(87, 86, 86);
+}
+.bulletinHolder4 {
+    width: 95%;
+    border:1px solid rgb(199, 195, 195);
+    padding: 10px 30px;
+}
+
+.mainFlex4 {
+    display: flex;
+    justify-content: center;
+}
+
+.mainFlex24 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+.bulletinHolder24 {
+    width: 95%;
+    border:1px solid rgb(199, 195, 195);
+    padding: 10px 30px;
+}
+
+.bulletinList24 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.bulletinBox24 {
+    width: 31.5%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height:fit-content;
+    margin-right: 30px;
+}
