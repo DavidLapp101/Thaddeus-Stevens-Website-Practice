@@ -1,3 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader4 {
+    display: inline;
+    color: #265b8c;
+    border-bottom: 3px solid #265b8c;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.settingsDiv4 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.address4 {
+    display: flex;
+    justify-content: center;
+}
+
+.addressDirection4 {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    padding-right: 15px;
+}
+
+.address4 span {
+    font-size: 12px;
+    padding: 3px 5px 0px 5px;
+}
+
+.address4 a {
+    color:#265b8c;
+}
+.link4 {
+    color:#265b8c;
+    width: 60%;
+    display: block;
+    font-size: 18px;
+}
+.icons4 {
+    background-color: #265b8c;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+    height: 25px;
+}
+
+.ion4 {
+    color:white;
+    font-size: 20px;
+}
+
+.lowerButton4 {
+    width: 100%;
+    background-color: #265b8c;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.bulletinBox4 {
+    width: 31.5%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height:fit-content
+}
+.bulletinList4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.para4 {
+    margin-top: 35px;
+    color: rgb(100, 100, 100);
+}
+
+.upperBox4 {
+    padding: 10px 10px;
+    overflow-wrap: break-word;
+}
+
+.bulletinHolder4 h2 {
+    margin-bottom: 10px;
+    color: rgb(87, 86, 86);
+}
+.bulletinHolder4 {
+    width: 95%;
+    border:1px solid rgb(199, 195, 195);
+    padding: 10px 30px;
+}
+
+.mainFlex4 {
+    display: flex;
+    justify-content: center;
+}
+
+.mainFlex24 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+.bulletinHolder24 {
+    width: 95%;
+    border:1px solid rgb(199, 195, 195);
+    padding: 10px 30px;
+}
+
+.bulletinList24 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.bulletinBox24 {
+    width: 31.5%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height:fit-content;
+    margin-right: 30px;
+}
+.here-3 {
+    font-size: 0.8rem;
+    word-spacing: 3px;
+    font-weight: bold;
+    margin: 10px 10px 30px 30px;
+}
+
+.here-3 a {
+    font-weight: 100;
+    word-spacing: normal;
+}
+
+.title-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    margin-bottom: 50px;
+}
+
+.title-3 a {
+    font-weight: 100;
+    font-size: 2rem;
+    color: #265b8c;
+}
+
+.title-3 .icons-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #265b8c;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+.body-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;   
+}
+
+.tab-header-3 {
+    display: block;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #265b8c;
+    width: 100%;
+    padding: 7px 10px;
+}
+
+.leftside-3, .rightside-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 600px;
+}
+
+.rightside-3 {
+    height: 330px;
+}
+
+.left1-3, .left2-3, .left3-3, .right1-3, .right2-3 {
+    border: grey solid 1px;
+}
+
+.left1-3 p {
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    color: rgb(66, 66, 66);
+}
+
+.left1-3 .link-3 {
+    display: block;
+    color: #265b8c;
+    font-size: 1.1rem;
+    background-color: rgb(223, 217, 217);
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.left2-3 .calendar-3 {
+    display: block;
+    text-align: right;
+    margin: 5px 10px 0px 0px;
+    font-size: 1.1rem;
+    color: #265b8c;
+}
+
+.left2-3 p {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: rgb(66, 66, 66);
+}
+
+.left3-3 .icons-3 {
+    text-align: right;
+    margin: 10px 15px 30px 0px;
+    font-size: 1.7rem;
+    color: #265b8c;
+}
+
+.left3-3 p {
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    color: rgb(66, 66, 66);
+}
+
+.right1-3 br {
+    height: 30px;
+}
+
+.right2-3 p, .filler-3 {
+    color: rgb(66, 66, 66);
+    padding: 10px;
+}
+
+.rightside-3 span {
+    font-weight: bold;
+}
+/* #265b8c */
 *, *:before, *:after {box-sizing: border-box; padding: 0; margin: 0;}
 .title-2{
     Font-size: 2.5rem;
@@ -133,7 +384,6 @@
 header{
     width: 100%;
     height: 150px;
-    border: 1px solid black;
 }
 
 .pages-5{
