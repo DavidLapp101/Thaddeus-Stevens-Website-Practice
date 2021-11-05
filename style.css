@@ -1,3 +1,4 @@
+/* #265b8c #D1D1D1 */
 *{
     margin: 0;
     padding: 0;
@@ -109,4 +110,157 @@ a.footer{
 
 a.footer:hover{
     text-decoration: underline;
+}
+
+
+.login-header {
+    display: flex;
+    justify-content: right;
+    padding-right: 6%;
+    padding-top: 1%;
+}
+
+.header-icon {
+    font-size: 2rem;
+    padding: .2rem;
+    color: #265b8c;
+}
+
+.search-icon {
+    padding-right: 2%;
+}
+
+.profile-iconbox {
+    border: .1rem solid #265b8c;
+    border-radius: 50%;
+}
+
+.page-header {
+    display: flex;
+    justify-content: left;
+    text-transform: capitalize;
+    margin-top: 3%;
+    background-color: #265b8c;
+    height: 43px;
+    
+}
+
+.nav-1 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-1:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-2 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-2:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-3 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-3:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-4 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-4:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-5 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-5:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
 }
