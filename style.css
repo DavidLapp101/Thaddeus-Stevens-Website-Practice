@@ -64,7 +64,7 @@
 }
 
 .rightside-3 {
-    height: 400px;
+    height: 330px;
 }
 
 .left1-3, .left2-3, .left3-3, .right1-3, .right2-3 {
@@ -115,6 +115,15 @@
 
 .right1-3 br {
     height: 30px;
+}
+
+.right2-3 p, .filler-3 {
+    color: rgb(66, 66, 66);
+    padding: 10px;
+}
+
+.rightside-3 span {
+    font-weight: bold;
 }
 /* #265b8c */
 *, *:before, *:after {box-sizing: border-box; padding: 0; margin: 0;}
