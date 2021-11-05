@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.here-3 {
+    font-size: 0.8rem;
+    word-spacing: 3px;
+    font-weight: bold;
+    margin: 10px 10px 30px 30px;
+}
+
+.here-3 a {
+    font-weight: 100;
+    word-spacing: normal;
+}
+
+.title-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    margin-bottom: 50px;
+}
+
+.title-3 a {
+    font-weight: 100;
+    font-size: 2rem;
+    color: #265b8c;
+}
+
+.title-3 .icons-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #265b8c;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+.body-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;   
+}
+
+.tab-header-3 {
+    display: block;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #265b8c;
+    width: 100%;
+    padding: 7px 10px;
+}
+
+.leftside-3, .rightside-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 600px;
+}
+
+.rightside-3 {
+    height: 400px;
+}
+
+.left1-3, .left2-3, .left3-3, .right1-3, .right2-3 {
+    border: grey solid 1px;
+}
+
+.left1-3 p {
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    color: rgb(66, 66, 66);
+}
+
+.left1-3 .link-3 {
+    display: block;
+    color: #265b8c;
+    font-size: 1.1rem;
+    background-color: rgb(223, 217, 217);
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.left2-3 .calendar-3 {
+    display: block;
+    text-align: right;
+    margin: 5px 10px 0px 0px;
+    font-size: 1.1rem;
+    color: #265b8c;
+}
+
+.left2-3 p {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: rgb(66, 66, 66);
+}
+
+.left3-3 .icons-3 {
+    text-align: right;
+    margin: 10px 15px 30px 0px;
+    font-size: 1.7rem;
+    color: #265b8c;
+}
+
+.left3-3 p {
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    color: rgb(66, 66, 66);
+}
+
+.right1-3 br {
+    height: 30px;
+}
+/* #265b8c */
