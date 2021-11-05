@@ -1,0 +1,249 @@
+/* #265b8c #D1D1D1 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.login-header {
+    display: flex;
+    justify-content: right;
+    padding-right: 6%;
+    padding-top: 1%;
+}
+
+.header-icon {
+    font-size: 2rem;
+    padding: .2rem;
+    color: #265b8c;
+}
+
+.search-icon {
+    padding-right: 2%;
+}
+
+.profile-iconbox {
+    border: .1rem solid #265b8c;
+    border-radius: 50%;
+}
+
+.page-header {
+    display: flex;
+    justify-content: left;
+    text-transform: capitalize;
+    margin-top: 3%;
+    background-color: #265b8c;
+    height: 43px;
+    
+}
+
+.nav-1 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-1:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-2 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-2:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-3 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-3:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-4 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-4:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-5 {
+    text-decoration: none;
+    background-color: #265b8c;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+.nav-5:hover {
+    text-decoration: none;
+    background-color: rgb(250, 218, 218);
+    color: #265b8c;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .7%;
+    min-width: 20px;
+    min-height: 10px;
+}
+
+
+.address1 {
+    display: flex;
+    justify-content: left;
+    margin: .8%;
+}
+
+.addressDirection1 {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    padding-right: 15px;
+}
+
+.address1 span {
+    font-size: 12px;
+    padding: 3px 5px 0px 5px;
+}
+
+.address1 a {
+    color:#265b8c;
+}
+
+
+.intro-link {
+    font-size: 2rem;
+    width: 100%;
+}
+
+.intro-link a {
+    font-size: 2rem;
+    color: #265b8c;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: left;
+}
+
+.section-1 a {
+    color: white;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.section-1-tool {
+    flex-direction: column;
+}
+
+.top-col-box-1 {
+    margin-top: 2%;
+    height: 38px;
+    width: 400px;
+    background-color: #265b8c;
+    margin-right: 10px;
+}
+
+.top-col-content-1 {
+    border: 1px solid grey;
+    height: 400%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.bottom-col-content-1 {
+    border: 1px solid grey;
+    height: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.top-col-box-2 {
+    margin-top: 3%;
+    height: 38px;
+    width: 300px;
+    background-color: #265b8c;
+}
+
+.top-col-content-2 {
+    border: 1px solid grey;
+    height: 100%;
+}
+
+.bottom-col-content-2 {
+    border: 1px solid grey;
+    height: 25px;
+    overflow: hidden;
+    margin-right: 10px;
+}
